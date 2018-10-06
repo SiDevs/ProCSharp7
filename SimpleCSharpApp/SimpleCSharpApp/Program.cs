@@ -15,9 +15,46 @@ namespace SimpleCSharpApp
             Console.WriteLine("Hello World!");
             Console.WriteLine();
 
-            Console.ReadLine();
+            // Process any incoming args.
+            for (int i = 0; i < args.Length; i++)
+            {
+                Console.WriteLine("Arg: {0}", args[i]);
+            }
 
+            // Process any incoming args using foreach
+            foreach (string arg in args)
+            {
+                Console.WriteLine("ArgForEach: {0}", arg);
+            }
+
+            // Get arguments using System.Environment.
+            string[] theArgs = Environment.GetCommandLineArgs();
+            foreach (string arg in theArgs)
+            {
+                Console.WriteLine("theArg: {0}", arg);
+            }
+
+            // Helper method within the Program class.
+            ShowEnvironmentDetails();
+
+            Console.ReadLine();
             return -1;
+        }
+
+        static void ShowEnvironmentDetails()
+        {
+            // Print out the drives on this machine,
+            // and other interesting details.
+            foreach (string drive in Environment.GetLogicalDrives())
+            {
+                Console.WriteLine("Drive: {0}", drive);
+            }
+
+            Console.WriteLine("OS: {0}", Environment.OSVersion);
+            Console.WriteLine("Numbers of processors: {0}",
+                Environment.ProcessorCount);
+            Console.WriteLine(".NET Version: {0}",
+                   Environment.Version);
         }
     }
 }
