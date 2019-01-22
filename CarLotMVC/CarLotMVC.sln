@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLotMVC", "CarLotMVC\CarLotMVC.csproj", "{FD77EAED-3C8F-4E6E-A7F1-0BF07BBA69D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL.Models", "AutoLotDAL.Models\AutoLotDAL.Models.csproj", "{9A917D7C-885E-4D9A-818F-9955871A4FBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FD77EAED-3C8F-4E6E-A7F1-0BF07BBA69D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD77EAED-3C8F-4E6E-A7F1-0BF07BBA69D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD77EAED-3C8F-4E6E-A7F1-0BF07BBA69D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
